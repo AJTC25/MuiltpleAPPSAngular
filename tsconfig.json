@@ -17,7 +17,21 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "state-app": [
+        "dist/libs/state-app"
+      ],
+      "state-app/*": [
+        "dist/libs/state-app/*"
+      ],
+      "@libs/common": [
+        "dist/libs/common"
+      ],
+      "@libs/common/*": [
+        "dist/libs/common/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
